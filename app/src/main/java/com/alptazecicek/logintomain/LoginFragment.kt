@@ -27,6 +27,8 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        // email and password check. if its not correct a hint message giving with toast.
         fragmentLoginBinding.logInBtn.setOnClickListener {
             if (fragmentLoginBinding.emailEdittext.text.toString() == email
                 && fragmentLoginBinding.passwordEdittext.text.toString() == password )

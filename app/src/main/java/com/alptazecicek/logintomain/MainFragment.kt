@@ -24,6 +24,7 @@ class MainFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        // fragment navigatesUp with back button.
         fragmentMainBinding.backBtn.setOnClickListener {
             findNavController().popBackStack()
         }
