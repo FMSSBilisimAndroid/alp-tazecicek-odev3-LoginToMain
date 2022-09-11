@@ -1,4 +1,4 @@
-## ÖDEV 1- SAVINGSTATE -> https://github.com/FMSSBilisimAndroid/alp-tazecicek-odev-3-SavingState
+## HomeWork 2- SavingState -> https://github.com/FMSSBilisimAndroid/alp-tazecicek-odev-3-SavingState
 
 
 # LoginToMain
